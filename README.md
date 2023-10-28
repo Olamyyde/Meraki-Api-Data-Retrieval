@@ -3,11 +3,11 @@ This project is a Python application that demonstrates how to use both the Pytho
 
 Table of Contents
 
-    Requirements
-    Usage
-    Project Structure
-
 Requirements
+Usage
+Project Structure
+
+REQUIREMENTS
 
 To run this project, you'll need:
 
@@ -16,36 +16,36 @@ To run this project, you'll need:
     meraki library (used for interacting with the Meraki API, install it using pip install meraki)
     A Cisco Meraki API key with the necessary permissions to access administrators and inventory devices within your organization.
 
-Usage
+USAGE
 
-    Clone the repository to your local machine using the following command:
+Clone the repository to your local machine using the following command:
 
 
-git clone https://github.com/yourusername/meraki-api-retrieval.git
+    git clone https://github.com/yourusername/meraki-api-retrieval.git
 
 Navigate to the project directory:
 
 
-cd meraki-api-retrieval
+    cd meraki-api-data-retrieval
 
 Replace the placeholders in the code (api_key and org_id) with your Meraki API key and organization ID.
 
 Execute the script to retrieve data using the requests module:
 
 
-python requests_module.py
+    python requests_module.py
 
-    The script will access the Meraki API to retrieve data about administrators and inventory devices.
-    The retrieved data is saved into PythonRequestModule.txt.
+The script will access the Meraki API to retrieve data about administrators and inventory devices.
+The retrieved data is saved into PythonRequestModule.txt.
 
 Execute the script to retrieve data using the Meraki module:
 
-    python meraki_module.py
+    python Meraki_module.py
 
-        This script uses the Meraki module to retrieve the same data.
-        The retrieved data is saved into MerakiRequestModule.txt.
+This script uses the Meraki module to retrieve the same data.
+The retrieved data is saved into MerakiRequestModule.txt.
 
-Project Structure
+PROJECT STRUCTURE
 
 The project has the following structure:
 
